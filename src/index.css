@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000300;
+}
+
+.slide-right-enter {
+  transform: translateX(100%);
+}
+.slide-right-enter-active {
+  transform: translateX(0%);
+  transition: all 0.5s ease-out;
+}
+.slide-right-exit {
+  transform: translateX(0%);
+}
+.slide-right-exit-active {
+  transform: translateX(100%);
+  transition: all 0.5s ease-out;
+}
+
+.tst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

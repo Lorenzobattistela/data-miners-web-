@@ -6,24 +6,24 @@ const Newsletter = () => {
       <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
         <div className='lg:col-span-2 my-4'>
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
-            Want tips & tricks to optimize your flow?
+            Quer dicas para melhorar o flow do trabalho?
           </h1>
-          <p>Sign up to our newsletter and stay up to date.</p>
+          <p>Inscreva-se na nossa newsletter e receba todas as novidades e dicas.</p>
         </div>
         <div className='my-4'>
           <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
             <input
               className='p-3 flex w-full rounded-md text-black'
               type='email'
-              placeholder='Enter Email'
+              placeholder='Seu melhor Email'
             />
-            <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
-              Notify Me
+            <button className='text-sm bg-[#00df9a] hover:bg-[#1af5b1] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
+              Notifique-me
             </button>
           </div>
           <p>
-            We care bout the protection of your data. Read our{' '}
-            <span className='text-[#00df9a]'>Privacy Policy.</span>
+            Nos importamos com a proteção dos seus dados. Leia nossa{' '}
+            <a href='#'><span className='text-[#00df9a]'>Política de Privacidade.</span></a>
           </p>
         </div>
       </div>
