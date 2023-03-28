@@ -21,24 +21,24 @@ const Footer = () => {
       </div>
       <div className='lg:col-span-2 flex justify-between mt-6'>
     <div>
-        <h6 className='font-medium text-gray-400'>Solutions</h6>
+        <h6 className='font-medium text-gray-400'>Soluções</h6>
         <ul>
             <li className='py-2 text-sm'>Analytics</li>
         </ul>
     </div>
     <div>
-        <h6 className='font-medium text-gray-400'>Support</h6>
+        <h6 className='font-medium text-gray-400'>Suporte</h6>
         <ul>
-            <li className='py-2 text-sm'>Pricing</li>
-            <li className='py-2 text-sm'>Documentation</li>
-            <li className='py-2 text-sm'>Guides</li>
+            <li className='py-2 text-sm'>Preço</li>
+            <li className='py-2 text-sm'>Documentação</li>
+            <li className='py-2 text-sm'>Guias</li>
             <li className='py-2 text-sm'>API Status</li>
         </ul>
     </div>
     <div>
-        <h6 className='font-medium text-gray-400'>Company</h6>
+        <h6 className='font-medium text-gray-400'>Empresa</h6>
         <ul>
-            <li className='py-2 text-sm'>About</li>
+            <li className='py-2 text-sm'>Sobre</li>
             <li className='py-2 text-sm'>Blog</li>
             <li className='py-2 text-sm'>Carreers</li>
         </ul>
@@ -46,9 +46,8 @@ const Footer = () => {
     <div>
         <h6 className='font-medium text-gray-400'>Legal</h6>
         <ul>
-            <li className='py-2 text-sm'>Claim</li>
-            <li className='py-2 text-sm'>Policy</li>
-            <li className='py-2 text-sm'>Terms</li>
+            <li className='py-2 text-sm'>Política</li>
+            <li className='py-2 text-sm'>Termos</li>
         </ul>
     </div>
       </div>
