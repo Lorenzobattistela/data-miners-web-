@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Newsletter from './components/Newsletter';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Analytics />
       <Newsletter />
       <Cards />
+      <About/>
+      <Contact/>
       <Footer />
     </div>
   );
